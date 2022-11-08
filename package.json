@@ -1,7 +1,7 @@
 {
   "name": "cinema_app",
   "version": "0.1.0",
-  "homepage": "https://eugeneqg.github.io/movie_app/",
+  "homepage": "https://eugeneqg.github.io/cinema_app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
