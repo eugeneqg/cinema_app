@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/cinema_app/static/css/main.6ec750fb.css",
+    "main.js": "/cinema_app/static/js/main.8266adcd.js",
+    "static/media/header-pic-2.png": "/cinema_app/static/media/header-pic-2.9d2f5c26bf11c379cb55.png",
+    "static/media/header-pic.png": "/cinema_app/static/media/header-pic.2956b001666ff7deed87.png",
+    "static/media/header-pic-3.png": "/cinema_app/static/media/header-pic-3.6d754b45a1fdc9a4ed9d.png",
+    "static/media/my-account.png": "/cinema_app/static/media/my-account.96edf5823ae07e272d08.png",
+    "static/media/banner.png": "/cinema_app/static/media/banner.01b9ac169c7aa40316a6.png",
+    "static/media/action.png": "/cinema_app/static/media/action.fe04b8f4d8738e250260.png",
+    "static/media/spinner2.gif": "/cinema_app/static/media/spinner2.2eb9a65d1cc123e7bf84.gif",
+    "static/media/no-results.webp": "/cinema_app/static/media/no-results.1e1473015a9872621543.webp",
+    "static/media/back.svg": "/cinema_app/static/media/back.c98a9b215a4f3b7870c4af172de1e14d.svg",
+    "static/media/slick.svg": "/cinema_app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/cinema_app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/cinema_app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/cinema_app/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/google.svg": "/cinema_app/static/media/google.46e03246197d3b573d949e06d2959bd5.svg",
+    "static/media/star-filled.svg": "/cinema_app/static/media/star-filled.14bf06d776d9f94296de5749e128e975.svg",
+    "static/media/apple.svg": "/cinema_app/static/media/apple.02cfaaa25ca810bb41bdeb36eb85edbc.svg",
+    "index.html": "/cinema_app/index.html",
+    "static/media/burger-menu.svg": "/cinema_app/static/media/burger-menu.8a8d081391e83b9cac595f7f0c5d580a.svg",
+    "static/media/facebook.svg": "/cinema_app/static/media/facebook.64231574d05e0b186b8e8b6b29b76152.svg",
+    "static/media/bx_movie-play.svg": "/cinema_app/static/media/bx_movie-play.616f97b07a58b9256d84c5fd87350ded.svg",
+    "static/media/ic_baseline-ondemand-video.svg": "/cinema_app/static/media/ic_baseline-ondemand-video.3a25745b4a83d74cc17bdc20f0764c39.svg",
+    "static/media/arrow.svg": "/cinema_app/static/media/arrow.7351182acde4d0109323608b5939bb83.svg",
+    "static/media/left-arrow.svg": "/cinema_app/static/media/left-arrow.b2377522c63ce0f406767525dcce3227.svg",
+    "main.6ec750fb.css.map": "/cinema_app/static/css/main.6ec750fb.css.map",
+    "main.8266adcd.js.map": "/cinema_app/static/js/main.8266adcd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ec750fb.css",
+    "static/js/main.8266adcd.js"
+  ]
+}
