@@ -1,0 +1,151 @@
+.login-back {
+    width: 770px;
+    height: 724px;
+
+    background: #181818;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-text {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+    color: #FFFFFF;
+}
+
+.login-toggle-back {
+    width: 370px;
+    height: 40px;
+    left: 535px;
+    top: 333px;
+    
+    background: #2F2F2F;
+    border-radius: 12px;
+
+    padding: 4px;
+
+    display: flex;
+
+    gap: 42px;
+
+    margin-bottom: 20px;
+}
+
+.login-button-text {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 6px 0px;
+    
+    color: #FFFFFF;
+}
+
+.active {
+    width: 180px;
+    height: 32px;
+
+    text-align: center;
+
+    background: #FBCB50;
+    border-radius: 8px;
+}
+
+.login-input {
+    background: #2F2F2F;
+    border-radius: 8px;
+
+    width: 370px;
+    height: 52px;
+    border: none;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 16px;
+
+    padding: 0px 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.login-input:focus {
+    outline: solid 1px #FBCB50;
+}
+
+::placeholder { 
+    color: white;
+    opacity: 0.2; 
+}
+
+.forgot {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    
+    color: #6D6D6D;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.login-button {
+    width: 370px;
+    height: 60px;
+
+    background: #FBCB50;
+    border-radius: 8px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    border: none;
+
+    margin-bottom: 16px;
+}
+
+.register-button {
+    width: 370px;
+    height: 60px;
+    background-color: transparent;
+    
+    border: 1px solid #5E5E5E;
+    border-radius: 8px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}

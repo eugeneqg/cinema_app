@@ -1,0 +1,321 @@
+@media (min-width: 1281px) {
+    .back {
+        position: relative;
+        width: 1440px;
+        height: 133px;
+        background: url("./back.svg") no-repeat;
+        left: 0px;
+        top: 938px; 
+        z-index: -1;
+    }
+
+    .popular {
+        margin-top: 600px;
+    }
+
+    .titles {
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        cursor: pointer;
+
+        text-decoration: none;
+
+        color: #FFFFFF;
+
+    }
+
+    .arrow {
+        margin-left: 18px;
+        display: inline;
+    }
+
+    .spacer {
+        height: 40px;
+    }
+
+    .popular-cards {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        cursor: pointer;
+    }
+
+    .popular-card {
+        width: 170px;
+        height: auto;
+
+        position: relative;
+
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 28.13%, #000000 100%);
+    }
+
+    .popular-film {
+
+        width: 170px;
+        height: auto;
+
+        position: relative;
+        background: url(./spinner2.gif) center no-repeat;
+        background-size: 32px;
+
+        background-color: white;
+        z-index: -1;
+
+    }
+
+    .not-loaded {
+        width: 170px;
+        height: 240px;
+        position: relative;
+
+        background-color: #FBCB50;
+
+    }
+
+    .not-loaded-spinner {
+        background: url(./spinner2.gif) center center no-repeat; 
+    }
+
+    .film-title {
+        position: absolute;
+
+        bottom: 0;
+
+        z-index: 99;
+
+        width: 154px;
+
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 8px;
+        margin-bottom: 8px;
+
+        color: #FFFFFF;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .trending-block {
+        position: relative;
+        top: 120px;
+        left: 0;
+
+        margin-bottom: 160px;
+    }
+
+    .back {
+        position: absolute;
+        width: 100%;
+        height: 100px;
+
+        background-color:#FBCB50;
+
+        left: 0px;
+        top: 153px; 
+        z-index: -1;
+    }
+
+    .popular {
+        margin-top: 200px;
+        position: relative;
+    }
+
+    .titles {
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        cursor: pointer;
+
+        margin-bottom: 40px;
+
+        text-decoration: none;
+
+        color: #FFFFFF;
+
+    }
+
+    .arrow {
+        margin-left: 18px;
+        display: inline;
+    }
+
+    .spacer {
+        height: 40px;
+    }
+
+    .popular-cards {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        cursor: pointer;
+    }
+
+    .popular-card {
+        width: 120px;
+        height: auto;
+
+        position: relative;
+
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 28.13%, #000000 100%);
+    }
+
+    .popular-film {
+
+        width: 120px;
+        height: auto;
+
+        position: relative;
+        background: url(./spinner2.gif) center no-repeat;
+        background-size: 32px;
+
+        background-color: white;
+        z-index: -1;
+
+    }
+
+    .not-loaded {
+        width: 170px;
+        height: 240px;
+        position: relative;
+
+        background-color: #FBCB50;
+
+    }
+
+    .not-loaded-spinner {
+        background: url(./spinner2.gif) center center no-repeat; 
+    }
+
+    .film-title {
+        position: absolute;
+
+        bottom: 0;
+
+        z-index: 99;
+
+        width: 71px;
+
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: auto;
+        margin-left: 8px;
+        margin-bottom: 8px;
+
+        color: #FFFFFF;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .trending-block {
+        position: relative;
+        top: 120px;
+        left: 0;
+
+        margin-bottom: 160px;
+    }
+
+    .popular {
+        margin-top: 200px;
+        position: relative;
+    }
+
+    .titles {
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        cursor: pointer;
+
+        margin-bottom: 40px;
+
+        text-decoration: none;
+
+        color: #FFFFFF;
+
+    }
+
+    .arrow {
+        margin-left: 18px;
+        display: inline;
+    }
+
+    .spacer {
+        height: 40px;
+    }
+
+    .popular-cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+        cursor: pointer;
+    }
+
+    .popular-card {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 28.13%, #000000 100%);
+    }
+
+    .popular-film {
+
+        width: 120px;
+        height: auto;
+
+        position: relative;
+        background: url(./spinner2.gif) center no-repeat;
+        background-size: 32px;
+
+        background-color: white;
+        z-index: -1;
+
+    }
+
+    .not-loaded {
+        width: 170px;
+        height: 240px;
+        position: relative;
+
+        background-color: #FBCB50;
+
+    }
+
+    .not-loaded-spinner {
+        background: url(./spinner2.gif) center center no-repeat; 
+    }
+
+    .film-title {
+
+        bottom: 0;
+
+        z-index: 99;
+
+        width: 100%;
+
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: auto;
+        margin-left: 8px;
+        margin-bottom: 8px;
+
+        color: #FFFFFF;
+
+    }
+
+}

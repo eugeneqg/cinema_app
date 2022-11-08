@@ -1,0 +1,177 @@
+@media (min-width: 1281px) {
+
+    .promo-banner {
+        width: 1440px;
+        height: 613px;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    .banner-title {
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 63px;
+
+        color: #FBCB50;
+
+        position: absolute;
+        left: 435px;
+        top: 179px;
+    }
+
+    .banner-text {
+        position: absolute;
+        width: 870px;
+        height: 56px;
+        left: 435px;
+        top: 258px;
+
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+    }
+
+    .banner-button {
+        position: absolute;
+        width: 370px;
+        height: 60px;
+        left: 435px;
+        top: 374px;
+
+        background: linear-gradient(96.75deg, #FBCB50 16.43%, #FF9D88 76.06%), #FBCB50;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+    .promo-banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    .banner-title {
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 63px;
+
+        color: #FBCB50;
+
+        position: absolute;
+        left: 250px;
+        top: 60px;
+    }
+
+    .banner-text {
+        position: absolute;
+        width: 500px;
+        height: 56px;
+        left: 250px;
+        top: 140px;
+
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+    }
+
+    .banner-button {
+        position: absolute;
+        width: 320px;
+        height: 52px;
+        left: 250px;
+        top: 250px;
+
+        background: linear-gradient(96.75deg, #FBCB50 16.43%, #FF9D88 76.06%), #FBCB50;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .promo-banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    .banner-title {
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 36px;
+        top: 40px;
+        left: 120px;
+        /* width: 200px; */
+
+        color: #FBCB50;
+
+        position: absolute;
+    }
+
+    .banner-button {
+        position: absolute;
+        width: 260px;
+        height: 40px;
+
+        top: 100px;
+        left: 120px;
+
+        background: linear-gradient(96.75deg, #FBCB50 16.43%, #FF9D88 76.06%), #FBCB50;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+
+        font-family: 'Cabin';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+    }
+
+}

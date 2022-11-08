@@ -1,0 +1,80 @@
+@media (min-width: 1281px) {
+
+    .videos {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+
+    .video {
+        width: 370px;
+        height: 240px;
+        /* outline: 10px solid; */
+        background: url(./spinner2.gif) center center no-repeat; 
+        /* background-color: #FBCB50; */
+        background-size: 32px;
+    }
+
+    .video-frame {
+        width: 370px;
+        height: 240px;
+        border: 10px solid;
+        /* outline: 10px solid; */
+        border-color: #FBCB50;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .videos {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+
+    .video {
+        width: 350px;
+        height: 230px;
+        /* outline: 10px solid; */
+        background: url(./spinner2.gif) center center no-repeat; 
+        /* background-color: #FBCB50; */
+        background-size: 32px;
+    }
+
+    .video-frame {
+        width: 350px;
+        height: 230px;
+        border: 10px solid;
+        /* outline: 10px solid; */
+        border-color: #FBCB50;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .videos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+
+    .video {
+        width: 100%;
+        height: auto;
+        background: url(./spinner2.gif) center center no-repeat; 
+        background-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .video-frame {
+        width: 350px;
+        height: 230px;
+        border: 10px solid;
+        /* outline: 10px solid; */
+        border-color: #FBCB50;
+    }
+
+}

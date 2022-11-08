@@ -1,0 +1,218 @@
+@media (min-width: 1281px) {
+
+    .header-search {
+        width: 270px;
+        height: 40px;
+
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        margin-left: 32px;
+        border:none;
+
+        font-family: 'Cabin', sans-serif;
+        text-indent: 16px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+
+        color: #FFFFFF;
+
+    }
+
+    .search {
+        display: inline-block;
+        position: relative;
+
+    }
+
+    ::placeholder { 
+        color: white;
+        opacity: 0.2; 
+    }
+
+    .field {
+        position: absolute;
+        width: 270px;
+        height: auto;
+        left: 0px;
+        top: 60px;
+        margin-left: 32px;
+
+        display: flex;
+        flex-direction: column;
+
+        background: #F0F0F0;
+        box-shadow: 0px 4px 30px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        z-index: 99;
+        padding-bottom: 8px;
+    }
+
+    .field p {
+        text-align: center;
+    }
+
+    .show-results {
+        text-align: center;
+        padding: 12px 0px 12px 0px;
+        cursor: pointer;
+
+        transition: color 0.2s ease-in-out;
+        text-decoration: none;
+    }
+
+    .show-results:hover {
+        color: #FBCB50;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .header-search {
+        width: 200px;
+        height: 40px;
+
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        margin-left: 32px;
+        border:none;
+
+        font-family: 'Cabin', sans-serif;
+        text-indent: 16px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+
+        color: #FFFFFF;
+
+    }
+
+    .search {
+        display: inline-block;
+        position: relative;
+
+    }
+
+    ::placeholder { 
+        color: white;
+        opacity: 0.2; 
+    }
+
+    .field {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        margin-left: 32px;
+        top: 48px;
+
+        display: flex;
+        flex-direction: column;
+
+        background: #F0F0F0;
+        box-shadow: 0px 4px 30px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        z-index: 99;
+        padding-bottom: 8px;
+    }
+
+    .field p {
+        text-align: center;
+    }
+
+    .show-results {
+        text-align: center;
+        padding: 12px 0px 12px 0px;
+        cursor: pointer;
+
+        transition: color 0.2s ease-in-out;
+        text-decoration: none;
+    }
+
+    .show-results:hover {
+        color: #FBCB50;
+    }
+
+}
+
+@media only screen and (max-width: 768px) { 
+    .header-search {
+
+        width: 334px;
+        height: 52px;
+
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        border:none;
+
+        font-family: 'Cabin', sans-serif;
+        text-indent: 16px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+
+        color: white;
+
+    }
+
+    .search {
+        display: inline-block;
+        position: relative;
+        margin-top: 120px;
+        margin-bottom: 40px;
+
+    }
+
+    ::placeholder { 
+        color: white;
+        opacity: 0.9; 
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .field {
+        /* position: absolute; */
+        width: 100%;
+        height: auto;
+        top: 48px;
+
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+
+        background: #F0F0F0;
+        box-shadow: 0px 4px 30px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        z-index: 99;
+        padding-bottom: 8px;
+    }
+
+    .field p {
+        text-align: center;
+    }
+
+    .show-results {
+        text-align: center;
+        padding: 12px 0px 12px 0px;
+        cursor: pointer;
+
+        transition: color 0.2s ease-in-out;
+        text-decoration: none;
+    }
+
+    .show-results:hover {
+        color: #FBCB50;
+    }
+
+    .header-search {
+        margin-top: -20px;
+    }
+
+    
+
+}

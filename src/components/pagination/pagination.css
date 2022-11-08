@@ -1,0 +1,41 @@
+.page-number {
+    list-style: none;
+}
+
+.page-numbers {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.page-number {
+    background-color: rgb(69, 69, 69);
+    padding: 12px 20px;
+}
+
+.page-number span {
+    font-family: "Cabin";
+    color: white;
+}
+
+.navigation-button {
+    width: 100px;
+    height: 40px;
+    background-color:rgb(74, 74, 74);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-button span {
+    font-family: "Cabin";
+    color: white;
+    font-size: 16px;
+}
