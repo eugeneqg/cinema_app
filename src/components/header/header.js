@@ -19,7 +19,7 @@ const Header = ({onGetData, onClickMenuOpen, onIsOpen}) => {
         if (!isMobile) {
             return (
                 <div className="container header-flex">
-                    <Link to="/"><div className="logo">MOViE</div></Link>
+                    <Link to="/cinema_app"><div className="logo">MOViE</div></Link>
                     <div className="menu">
                         <NavLink to="/in-cinemas" className={activeLink}>In cinemas</NavLink>
                         <NavLink to="/my-account" className={activeLink}>My account</NavLink>
