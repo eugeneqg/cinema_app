@@ -62,7 +62,7 @@ const App = () => {
           {onOpenMenu}
           <Header onIsOpen={isOpen} onClickMenuOpen={onClickMenuOpen} onGetData={onGetData}/>
           <Routes>
-              <Route path="cinema_app" element={<FullComponent openModal={openModal} onGetData={onGetData} />}/>
+              <Route path="/" element={<FullComponent openModal={openModal} onGetData={onGetData} />}/>
               <Route path="in-cinemas" element={<InCinemas onGetData={onGetData} />}/>
               <Route path="my-account" element={<MyAccount/>}/>
               <Route path="promo-page" element={<PromoPage openModal={openModal}/>}/>
